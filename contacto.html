@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/pruebacss.css">
+
+
+</head>
+<body>
+    
+    <header>    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="sobrenosotros.html">Sobre nosotros</a></li>
+                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a></li>
+                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a></li>
+                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mainCont container">
+        <h1 id="presTittle">Presupuestos personalizados.</h1>
+
+        <ol class="comoPres">
+            <h2>¿Cómo pedir presupuesto?</h2>
+            
+            <li>Completá tu nombre como representante.</li>
+            <li>Especificá la dirección del consorcio de propietarios en cuestión. Dirección y número.</li>
+            <li>Aclará la cantidad de unidades funcionales del edificio.</li>
+            <li>Seleccioná las opciones correctas en cuanto a la situación del encargado.</li>
+            <li>Clickeá en la casilla si el consorcio tiene juicios activos. En caso de no tenerlos, dejar la casilla vacía.</li>
+            <li>Agregá un mail de contacto al cual enviar el presupuesto.</li>
+            <li>En la parte de mensajes podés hacer cualquier aclaración que creas pertinente o agregar un mensaje.</li>
+            <li>¡Apretá "Enviar" y en un plazo de 24hs. te estaremos enviando el presupuesto personalizado!</li>
+        </ol>
+    </main>
+
+
+    <section class="formContacto">
+        <fieldset class="container">
+            <form action="post">
+
+                <h2>¡Pedí tu presupuesto!</h2>
+
+                <div class="row">
+                    <div class="col">
+                      <label for="formNombre">Nombre</label>
+                      <input type="text" id="formNombre" class="form-control" aria-label="Nombre">
+                    </div>
+                    <div class="col">
+                      <label for="formApellido">Apellido</label>
+                      <input type="text" id="formApellido" class="form-control"aria-label="Apellido">
+                    </div>
+                  </div>
+        
+                <br>
+
+                <div class="formCorreo">
+                    <label for="formEmail" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Tu correo electrónico no será compartido.</div>
+                </div>
+        
+                <br>
+
+                <div class="FormEdificio">
+                    <label for="formDireccion">Dirección del edificio</label>
+                    <input type="text" id="formDireccion"class="form-control">
+                </div>
+        
+                <br>
+        
+                <div class="FormCantUnidades">
+                    <label for="formUnidades">Cantidad de unidades totales</label>
+                    <input type="text" id="formUnidades"class="form-control">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="formEncViv1">Encargado</label>
+                    <select class="form-select" id="formEncViv1" aria-label="Seleccionar opción correcta">
+                        <option selected>Seleccionar opción correcta</option>
+                        <option value="1">Sin encargado</option>
+                        <option value="2">Encargado tiempo completo</option>
+                        <option value="3">Encargado medio tiempo</option>
+                    </select>               
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="formEncViv2">¿Encargado con vivienda?</label>
+                    <select class="form-select" id="formEncViv2" aria-label="Seleccionar opción correcta">
+                        <option selected>Seleccionar opción correcta</option>
+                        <option value="1">Si, con vivienda en el edificio.</option>
+                        <option value="2">No, sin vivienda en el edificio.</option>
+                        <option value="3">No lo sé, no tengo esa información.</option>                        
+                        <option value="4">No, pero lo estamos considerando.</option>
+                    </select>               
+                </div>
+
+                <br>
+
+                <div>Juicios activos</div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Sí, con juicios activos.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    No, sin juicios activos.
+                    </label>
+                  </div>         
+                            
+                <br>
+        
+                
+                <div class="mb-3">
+                    <label for="formMensaje" class="form-label">Mensaje o aclaración</label>
+                    <textarea class="form-control" id="formMensaje" rows="3"></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit" class="btn btn btn-dark">Enviar</button>
+                <button type="reset" class="btn btn-outline-dark">Borrar formulario</button>
+
+
+            </form>
+            </fieldset>
+    </section>
+   
+    <footer>
+        <span>
+            <p><strong>Administración Nakamura, © 2021.</strong></p>
+            <p>Administración de consorcios.</p>
+        </span> 
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+</body>
+</html>
