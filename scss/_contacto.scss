@@ -1,0 +1,67 @@
+#presTittle {
+    align-items: center;
+    text-align: center;
+    padding: 3vh 0 5vh 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 3vh;
+    }
+
+.mainCont {
+        h2{
+        font-weight: 700;
+        }
+    }
+
+.comoPres {
+    padding-bottom: $espacio-abajo;
+    }
+
+
+.formContacto {
+    padding-bottom: $espacio-abajo;
+
+        h2{
+            font-weight: 800;
+            text-align: center;
+            padding-bottom: $espacio-abajo;
+            }
+    }
+
+
+@media screen and (min-width: 1100px) {
+
+    #presTittle {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;  
+        padding-top: 7vh;
+        }
+    
+    .comoPres {
+        h2 {
+            color: rgb(83, 83, 83);
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            padding-top: $espacio-arriba;
+            padding-bottom: $espacio-abajo;
+            }
+    
+        li {
+            font-size: 18px;
+            }
+    }
+
+    .formContacto {
+        h2 {
+            font-weight: 800;    
+            font-size: 25px;
+            }
+        }
+
+}

@@ -1,0 +1,45 @@
+#noticias {
+    align-items: center;
+    text-align: center;
+    padding: 3vh 0 5vh 0;
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 35px;
+            padding-top: $espacio-arriba;
+            }   
+    }
+
+
+@media screen and (min-width: 1100px)  {
+
+    #noticias h1{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;  
+        padding-top: $espacio-arriba;
+        }           
+    
+    #sectionNot {
+        padding: 0 25vh 10vh 25vh; 
+        }
+    
+    .card {
+        img {
+        width: auto;
+        height: auto;
+        }
+    }
+    .card-title {
+        font-weight: 700;    
+        font-size: 25px;
+        }
+    
+    .card-text {    
+        font-size: 18px;
+        }
+
+}

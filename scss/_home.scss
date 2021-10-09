@@ -1,0 +1,109 @@
+.indexMTittle {
+
+    background-image: url(https://images.pexels.com/photos/532568/pexels-photo-532568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    height: 30vh;
+    text-align: center; 
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 35px;
+            padding-top: $espacio-arriba;
+            }
+
+        h2 {
+            color: gray;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            padding-top: $espacio-arriba;
+            }  
+    }   
+
+
+#ofrecemos {
+    align-items: center;
+    padding-top: $espacio-arriba;
+
+        h3{
+            font-weight: 800;
+            }
+    }
+
+
+.serviciosIconos {
+    text-align: center;
+    padding-bottom: $espacio-abajo;
+
+        img{
+            width: 50%;
+            padding: 0;   
+            }
+    }
+
+
+@media screen and (min-width: 1100px) {
+
+
+    .indexMTittle {
+        padding: 15vh 25vh;
+        background-image: url(https://images.pexels.com/photos/532568/pexels-photo-532568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        background-repeat: no-repeat;
+        background-position:50% 50%;
+        background-size: cover;
+        height: 50vh;
+        text-align: left;
+
+            h1{
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 50px;
+                }
+
+            h2{
+                color: gray;
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                padding-top: $espacio-arriba;
+            }
+    }
+    
+    #ofrecemos {
+        text-align: left;
+        align-items: center;
+        display: flex;
+        flex: 1;
+        padding: 10vh 25vh; 
+        }   
+    
+    .serviciosIconos {
+        text-align: left;
+        display: flex;
+        flex: 1;
+
+            span {
+                padding-left: 20px;  
+                font-size: 18px; 
+                }
+
+            h3 {
+                font-weight: 800;    
+                font-size: 25px;
+                }
+
+            img {
+                width: 50px;
+                height: 50px;
+                }
+            
+        }
+    
+}
