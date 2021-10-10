@@ -74,6 +74,10 @@
     
     .Integrantes {    
         padding-bottom: $espacio-abajo;
+
+            span {
+                padding-top: $espacio-arriba;
+            }
         }
     
     .cuadroCons {

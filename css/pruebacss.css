@@ -1,0 +1,284 @@
+.indexMTittle {
+  background-image: url(https://images.pexels.com/photos/532568/pexels-photo-532568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  height: 30vh;
+  text-align: center; }
+  .indexMTittle h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 2vh; }
+  .indexMTittle h2 {
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 2vh; }
+
+#ofrecemos {
+  align-items: center;
+  padding-top: 2vh; }
+  #ofrecemos h3 {
+    font-weight: 800; }
+
+.serviciosIconos {
+  text-align: center;
+  padding-bottom: 5vh; }
+  .serviciosIconos img {
+    width: 50%;
+    padding: 0; }
+
+@media screen and (min-width: 1100px) {
+  .indexMTittle {
+    padding: 15vh 25vh;
+    background-image: url(https://images.pexels.com/photos/532568/pexels-photo-532568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 50vh;
+    text-align: left; }
+    .indexMTittle h1 {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px; }
+    .indexMTittle h2 {
+      color: gray;
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      padding-top: 2vh; }
+  #ofrecemos {
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    padding: 10vh 25vh; }
+  .serviciosIconos {
+    text-align: left;
+    display: flex;
+    flex: 1; }
+    .serviciosIconos span {
+      padding-left: 20px;
+      font-size: 18px; }
+    .serviciosIconos h3 {
+      font-weight: 800;
+      font-size: 25px; }
+    .serviciosIconos img {
+      width: 50px;
+      height: 50px; } }
+
+#presentaNos {
+  align-items: center;
+  text-align: center;
+  padding-top: 2vh; }
+
+#sobreNosotros {
+  text-align: center;
+  padding-top: 2vh; }
+  #sobreNosotros h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 2vh; }
+  #sobreNosotros p {
+    padding-top: 2vh; }
+
+.int3, .cuadroCons {
+  padding-bottom: 5vh; }
+
+.Integrantes img {
+  width: 80%;
+  padding: 0; }
+
+.Integrantes h3 {
+  font-weight: 800; }
+
+@media screen and (min-width: 1100px) {
+  #sobreNosotros {
+    padding-top: 2vh; }
+    #sobreNosotros p {
+      font-size: 18px; }
+    #sobreNosotros h1 {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px; }
+  #presentaNos h3 {
+    font-weight: 700;
+    font-size: 25px; }
+  #presentaNos p {
+    font-size: 18px; }
+  .Integrantes {
+    padding-bottom: 5vh; }
+    .Integrantes span {
+      padding-top: 2vh; }
+  .cuadroCons {
+    padding-bottom: 5vh; } }
+
+#servTittle {
+  align-items: center;
+  text-align: center;
+  padding: 3vh 0 5vh 0; }
+  #servTittle h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 2vh; }
+  #servTittle h2 {
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    padding-top: 2vh; }
+
+.gestionServ li {
+  padding: 1vh 0vh; }
+
+#carousel {
+  padding: 3vh 0 10vh 0; }
+
+@media screen and (min-width: 1100px) {
+  #servTittle {
+    padding-top: 2vh; }
+    #servTittle h1 {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px; }
+    #servTittle h2 {
+      color: gray;
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      padding-top: 2vh; }
+  .gestionServ {
+    padding-bottom: 7vh; }
+    .gestionServ h3 {
+      font-weight: 700;
+      font-size: 25px;
+      padding-bottom: 5vh; } }
+
+#noticias {
+  align-items: center;
+  text-align: center;
+  padding: 3vh 0 5vh 0; }
+  #noticias h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 2vh; }
+
+@media screen and (min-width: 1100px) {
+  #noticias h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 2vh; }
+  #sectionNot {
+    padding: 0 25vh 10vh 25vh; }
+  .card img {
+    width: auto;
+    height: auto; }
+  .card-title {
+    font-weight: 700;
+    font-size: 25px; }
+  .card-text {
+    font-size: 18px; } }
+
+#presTittle {
+  align-items: center;
+  text-align: center;
+  padding: 3vh 0 5vh 0;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  padding-top: 3vh; }
+
+.mainCont h2 {
+  font-weight: 700; }
+
+.comoPres {
+  padding-bottom: 5vh; }
+
+.formContacto {
+  padding-bottom: 5vh; }
+  .formContacto h2 {
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 5vh; }
+
+@media screen and (min-width: 1100px) {
+  #presTittle {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 7vh; }
+  .comoPres h2 {
+    color: #535353;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 2vh;
+    padding-bottom: 5vh; }
+  .comoPres li {
+    font-size: 18px; }
+  .formContacto h2 {
+    font-weight: 800;
+    font-size: 25px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  background-color: #3c3c3c;
+  padding: 3vh;
+  margin: 0; }
+
+footer p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #c7c7c7; }
+
+body {
+  color: #3c3c3c;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px; }
+
+@media screen and (min-width: 1100px) {
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #3c3c3c; }
+  .navbar li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700; }
+  nav ul li a:hover {
+    color: #949494 !important; }
+  footer {
+    padding: 4vh; }
+  footer span {
+    font-family: 'Lato', sans-serif;
+    color: #c7c7c7;
+    background-color: #3c3c3c; } }
